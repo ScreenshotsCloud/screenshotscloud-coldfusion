@@ -25,9 +25,9 @@ Once installed you can generate screenshot urls as follows:
 	>
 		<cfscript>
 			Options = {};
-		    Options.url = "bbc.com/news";
+			Options.url = "bbc.com/news";
 			Options.width = 1024;
-		    Options.viewport_width = 1560;
+			Options.viewport_width = 1560;
 		</cfscript>
 	  	<cfinvokeargument name="apiKey" value="SCREENSHOTSCLOUD_KEY">
 		<cfinvokeargument name="apiSecret" value="SCREENSHOTSCLOUD_SECRET">
